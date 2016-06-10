@@ -17,12 +17,10 @@ int Application::mainLoop() {
 		switch (oEvent.type) {
 			case ALLEGRO_EVENT_DISPLAY_CLOSE:
 				return 0;
-				// al_destroy_display(this->m_pDisplay);			
 			break;
 
 			case ALLEGRO_EVENT_KEY_DOWN:
 				return 0;
-				// al_destroy_display(this->m_pDisplay);			
 			break;
 		}
 
